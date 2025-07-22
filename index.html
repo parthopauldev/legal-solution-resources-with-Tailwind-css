@@ -1,11 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- extarnal css link -->
+
+    <link rel="stylesheet" href="tailwind init.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
     <title>Document</title>
 </head>
-<body>
-    
+
+<body class="font-[poppins] w-max-[1440px]">
+    <!-- header start -->
+    <header>
+        <!-- nav start -->
+        <nav class="w-[81.25%] mx-auto flex items-center justify-between py-[60px]">
+            <div class="logo-parent w-[160px] h-[46px]">
+                <img class="w-[100%]" src="images/logo2.png" alt="logo">
+            </div>
+            <ul class="nav-items flex items-center text-[rgba(112,112,112,1)] font-normal gap-[30px] ">
+                <!-- nav link -->
+
+                <!-- nav link -->
+
+                <li class="dark-03-text "><a href="">Home</a>
+                </li>
+                <li class=""><a class="mr-[4px]" href="">Services</a>
+                    <a href=""><i class="fa-solid fa-arrow-right"></i></a>
+                </li>
+
+                <li><a class="mr-[4px]" href="">Cases</a>
+                    <a href=""><i class="fa-solid fa-arrow-right"></i></a>
+                </li>
+
+                <li><a class="mr-[4px]" href="">Blog</a>
+                    <a href=""><i class="fa-solid fa-arrow-right"></i></a>
+                </li>
+
+                <li><a class="mr-[4px]" href="">Contact Us
+                    </a>
+                    <a href=""><i class="fa-solid fa-arrow-right"></i></a>
+                </li>
+            </ul>
+            <!-- button -->
+            <div class="btn-container">
+                <button class="py-[18px] px-[29px] bg-[rgb(182,140,90)] text-[18px]
+        font-[600] text-white rounded-[8px]">Free Consultation</button>
+            </div>
+        </nav>
+        <!-- nav end -->
+        <!-- banner start -->
+        <section
+            class="w-[81.25%] mx-auto bg-[url(/images/banner.png)] bg-cover bg-no-repeat bg-center text-white text-center mb-[100px]">
+            <div class="w-[59.1%] mx-auto py-[104px] px-[10px]">
+
+                <h1 class="font-[EB-Garamond] font-[800] text-[72px] leading-[85px] text-center mb-[24px]">We Provide
+                    Effective Legal Solutions</h1>
+                <p class="mb-[32px]">There are many variations of passages of Lorem Ipsum available, but the majority
+                    have suffered alteration in some form, by injected humour.</p>
+                <form action="">
+                    <input type="search" class="py-[19px] pr-[314px] pl-[20px] bg-white  rounded-[8px]"
+                        placeholder="Search your services">
+                    <input type="submit" value="search" class="py-[18px] px-[29px] bg-[rgb(182,140,90)] text-[18px]
+        font-[600] text-white rounded-[8px]">
+
+                </form>
+            </div>
+
+        </section>
+        <!-- banner end-->
+    </header>
+    <main class="w-[81.25%] mx-auto">
+        <!-- The Legal Practice Area -->
+        <section>
+
+
+            <h2 class="font-[EB-Garamond] text-[40px] font-[800]  text-center mb-[24px]">The Legal Practice Area</h2>
+            <p class="leading-[26px] text-[#414040] text-center mb-[64px]">There are many variations of passages of
+                Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+
+
+        </section>
+
+    </main>
+    <footer>
+
+    </footer>
 </body>
+
 </html>
