@@ -7,7 +7,6 @@
     <!-- extarnal css link -->
 
     <link rel="stylesheet" href="tailwind init.css">
-
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <!-- font awesome cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
@@ -26,11 +25,11 @@
     <!-- header start -->
     <header>
         <!-- nav start -->
-        <nav class="w-[81.25%] mx-auto flex items-center justify-between py-[60px]">
-            <div class="logo-parent w-[160px] h-[46px]">
+        <nav class="w-max-[1440px] px-[10px] flex items-center justify-between py-[60px] sm:bg-white sm:px-[40px]">
+            <div class="logo-parent w-[160px] h-[46px] ">
                 <img class="w-[100%]" src="images/logo2.png" alt="logo">
             </div>
-            <ul class="nav-items flex items-center text-[rgba(112,112,112,1)] font-normal gap-[30px] ">
+            <ul class="nav-items hidden  items-center text-[rgba(112,112,112,1)] font-normal gap-[30px]  sm:flex ">
                 <!-- nav link -->
 
                 <!-- nav link -->
@@ -63,15 +62,15 @@
         <!-- nav end -->
         <!-- banner start -->
         <section
-            class="w-[81.25%] mx-auto bg-[url(/images/banner.png)] bg-cover bg-no-repeat bg-center text-white text-center mb-[100px]">
-            <div class="w-[59.1%] mx-auto py-[104px] px-[10px]">
+            class="w-min-[1440px]  mx-[10px] bg-[url(/images/banner.png)] bg-cover bg-no-repeat bg-center text-white text-center mb-[100px] sm:mx-[40px]">
+            <div class="w-[100%] mx-auto py-[104px] px-[10px] sm:w-[59.1%]">
 
-                <h1 class="font-[EB-Garamond] font-[800] text-[72px] leading-[85px] text-center mb-[24px]">We Provide
+                <h1 class="font-[EB-Garamond] text-[42px] font-[800] sm:text-[72px] leading-[42px] text-center mb-[24px]">We Provide
                     Effective Legal Solutions</h1>
                 <p class="mb-[32px]">There are many variations of passages of Lorem Ipsum available, but the majority
                     have suffered alteration in some form, by injected humour.</p>
                 <form action="">
-                    <input type="search" class="py-[19px] pr-[314px] pl-[20px] bg-white  rounded-[8px]"
+                    <input type="search" class="py-[19px] sm:pr-[314px] pl-[20px] bg-white  rounded-[8px]"
                         placeholder="Search your services">
                     <input type="submit" value="search" class="py-[18px] px-[29px] bg-[rgb(182,140,90)] text-[18px]
         font-[600] text-white rounded-[8px]">
@@ -82,17 +81,67 @@
         </section>
         <!-- banner end-->
     </header>
-    <main class="w-[81.25%] mx-auto">
+    <main class=" mx-[10px] w-max-[1440px] ">
         <!-- The Legal Practice Area -->
-        <section>
+        <section class="w-[100%] ">
 
 
             <h2 class="font-[EB-Garamond] text-[40px] font-[800]  text-center mb-[24px]">The Legal Practice Area</h2>
             <p class="leading-[26px] text-[#414040] text-center mb-[64px]">There are many variations of passages of
                 Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
-
-
+<!-- cards -->
+<div class="cards grid grid-cols-1 sm:grid-cols-3 mx-auto w-[100%]">
+    <div class="card text-center  px-[71px] border-r-[0.5px] border-[#bfbcbc] border-b-[0.5px]">
+        <img width="73px" src="images/child.png" alt="" class="mb-[32px] mx-auto  mt-[71px]">
+        <h3 class="text-[32px] font-[800] text-[rgba(65,64,64,1)] mb-[24px]">Child Support</h3>
+        <p class="mb-[32px] leading-[26px] text-[#707070]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+        <img class="mb-[74px] w-[32px] mx-auto" src="images/Frame.png" alt="">
+    </div>
+    <div class="card text-center px-[71px] border-r-[0.5px] border-[#bfbcbc] border-b-[0.5px]">
+        <img width="73px" src="images/child.png" alt="" class="mb-[32px] mx-auto mt-[71px]">
+        <h3 class="text-[32px] font-[800] text-[rgba(65,64,64,1)] mb-[24px]">Child Support</h3>
+        <p class="mb-[32px] leading-[26px] text-[#707070]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+        <img class="mb-[74px] w-[32px] mx-auto" src="images/Frame.png" alt="">
+    </div>
+    <div class="card text-center px-[71px] border-b-[0.5px]">
+        <img width="73px" src="images/child.png" alt="" class="mb-[32px] mx-auto" mt-[71px]>
+        <h3 class="text-[32px] font-[800] text-[rgba(65,64,64,1)] mb-[24px]">Child Support</h3>
+        <p class="mb-[32px] leading-[26px] text-[#707070]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+        <img class="mb-[74px] w-[32px] mx-auto" src="images/Frame.png" alt="">
+    </div>
+    <div class="card text-center px-[71px] border-r-[0.5px] border-[#bfbcbc] border-b-[0.5px]">
+        <img width="73px" src="images/child.png" alt="" class="mb-[32px] mx-auto mt-[71px]">
+        <h3 class="text-[32px] font-[800] text-[rgba(65,64,64,1)] mb-[24px]">Child Support</h3>
+        <p class="mb-[32px] leading-[26px] text-[#707070]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+        <img class="mb-[74px] w-[32px] mx-auto" src="images/Frame.png" alt="">
+    </div>
+    <div class="card text-center px-[71px] border-r-[0.5px] border-[#bfbcbc] border-b-[0.5px]">
+        <img width="73px" src="images/child.png" alt="" class="mb-[32px] mx-auto mt-[71px]">
+        <h3 class="text-[32px] font-[800] text-[rgba(65,64,64,1)] mb-[24px]">Child Support</h3>
+        <p class="mb-[32px] leading-[26px] text-[#707070]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+        <img class="mb-[74px] w-[32px] mx-auto" src="images/Frame.png" alt="">
+    </div>
+    <div class="card text-center">
+        <img width="73px" src="images/child.png" alt="" class="mb-[32px] mx-auto mt-[71px]">
+        <h3 class="text-[32px] font-[800] text-[rgba(65,64,64,1)] mb-[24px]">Child Support</h3>
+        <p class="mb-[32px] leading-[26px] text-[#707070]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+        <img class="mb-[74px] w-[32px] mx-auto" src="images/Frame.png" alt="">
+    </div>
+</div>
         </section>
+        <!-- What Our Client Say -->
+         <section class="my-[70px] ">
+              <h2 class="font-[EB-Garamond] text-[40px] font-[800]  text-center mb-[24px]">What Our Client Say</h2>
+            <p class="leading-[26px] text-[#414040] text-center mb-[64px]">There are many variations of passages of Lorem Ipsum available,<br> but the majority have suffered alteration in some form, by injected humour.</p>
+            <!-- id card -->
+             <div class="text-white text-center bg-black w-max-[1117px] sm:w-[80%] rounded-[8px] ms:mx-auto py-[96px] w-[100%] mx-10px">
+                <img src="images/faq.png" alt="" class=" w-[70px] mb-[24px] mx-auto ">
+                <h4 class="text-[24px] font-[600] text-white">Awlad Hossain</h4>
+                <h6 class="mb-[32px]">UIX Designer</h6>
+                <p class="leading-[26px] w-[70%] mx-auto">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
+             </div>
+
+         </section>
 
     </main>
     <footer>
